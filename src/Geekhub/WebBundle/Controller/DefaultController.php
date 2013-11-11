@@ -21,8 +21,4 @@ class DefaultController extends Controller
         return $this->render('GeekhubWebBundle:Default:about.html.twig');
     }
 
-    public function contactAction()
-    {
-        return $this->render('GeekhubWebBundle:Default:contact.html.twig');
-    }
 }

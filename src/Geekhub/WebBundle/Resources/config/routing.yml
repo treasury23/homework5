@@ -12,5 +12,5 @@ geekhub_web_aboutpage:
 
 geekhub_web_contactpage:
     pattern:  /Contact
-    defaults: { _controller: GeekhubWebBundle:Default:contact }
+    defaults: { _controller: GeekhubWebBundle:Contact:contact }
 

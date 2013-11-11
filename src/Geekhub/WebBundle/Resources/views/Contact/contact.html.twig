@@ -1,11 +1,13 @@
 {% extends 'GeekhubWebBundle::layout.html.twig' %}
-{% set activeMenu = 'Catalog' %}
+{% set activeMenu = 'Contact' %}
 
 {% block body %}
     <div class="jumbotron">
-        <h1>Catalog</h1>
-        <p class="lead"></p>
+        <h1>Contact</h1>
+        <p class="lead">{{ author }}</p>
+        <p class="lead">{{ email }}</p>
         <p><a class="btn btn-lg btn-success" href="{{ path('geekhub_web_homepage') }}" role="button">Get home</a></p>
     </div>
+
     {% include ('GeekhubWebBundle::footer.html.twig') %}
 {% endblock %}

@@ -2,6 +2,12 @@
 {% set activeMenu = 'About' %}
 
 {% block body %}
+    <div class="jumbotron">
+        <h1>About</h1>
+        <p class="lead"></p>
+        <p><a class="btn btn-lg btn-success" href="{{ path('geekhub_web_homepage') }}" role="button">Get home</a></p>
+    </div>
+
     {% include ('GeekhubWebBundle::footer.html.twig') %}
 {% endblock %}
 
