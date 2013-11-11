@@ -1,0 +1,4 @@
+geekhub_web:
+    resource: "@GeekhubWebBundle/Resources/config/routing.yml"
+    prefix:   /
+

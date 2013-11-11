@@ -1,0 +1,16 @@
+geekhub_web_homepage:
+    pattern:  /
+    defaults: { _controller: GeekhubWebBundle:Default:index }
+
+geekhub_web_catalogpage:
+    pattern:  /Catalog
+    defaults: { _controller: GeekhubWebBundle:Default:catalog }
+
+geekhub_web_aboutpage:
+    pattern:  /About
+    defaults: { _controller: GeekhubWebBundle:Default:about }
+
+geekhub_web_contactpage:
+    pattern:  /Contact
+    defaults: { _controller: GeekhubWebBundle:Default:contact }
+
