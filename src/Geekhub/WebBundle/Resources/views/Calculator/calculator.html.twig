@@ -1,0 +1,15 @@
+{% extends 'GeekhubWebBundle::layout.html.twig' %}
+{% set activeMenu = 'Calculator' %}
+
+{% block body %}
+    <div class="jumbotron">
+        <h1>Кредитный калькулятор</h1>
+        <p class="lead">Сумма кредита: {{ calculator.SumCredit }}</p>
+        <p class="lead">Дней в месяце: {{ calculator.DayMonth }}</p>
+        <p class="lead">Процентная ставка: {{ calculator.Rate }}%</p>
+        <p class="lead">Сумма процентов: {{ calculator.SumPercent }}</p>
+        <p><a class="btn btn-lg btn-success" href="{{ path('geekhub_web_homepage') }}" role="button">Get home</a></p>
+    </div>
+
+    {% include ('GeekhubWebBundle::footer.html.twig') %}
+{% endblock %}

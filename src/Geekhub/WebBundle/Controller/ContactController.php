@@ -12,6 +12,7 @@ class ContactController extends Controller
         $contact = new Contact();
         $contact->setName('Viktor Musienko');
         $contact->setEmail('treasury23@gmail.com');
+
         return $this->render('GeekhubWebBundle:Contact:contact.html.twig', array('author' => $contact->getName(),
                                                                                     'email' => $contact->getEmail()));
     }

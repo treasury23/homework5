@@ -11,11 +11,6 @@ class DefaultController extends Controller
         return $this->render('GeekhubWebBundle:Default:index.html.twig');
     }
 
-    public function catalogAction()
-    {
-        return $this->render('GeekhubWebBundle:Default:catalog.html.twig');
-    }
-
     public function aboutAction()
     {
         return $this->render('GeekhubWebBundle:Default:about.html.twig');

@@ -2,9 +2,9 @@ geekhub_web_homepage:
     pattern:  /
     defaults: { _controller: GeekhubWebBundle:Default:index }
 
-geekhub_web_catalogpage:
-    pattern:  /Catalog
-    defaults: { _controller: GeekhubWebBundle:Default:catalog }
+geekhub_web_calculatorpage:
+    pattern:  /Calculator
+    defaults: { _controller: GeekhubWebBundle:CreditCalculator:calculator }
 
 geekhub_web_aboutpage:
     pattern:  /About
