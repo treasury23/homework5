@@ -38,6 +38,4 @@ class Contact
     {
         return $this->name;
     }
-
-
 }
